@@ -376,6 +376,113 @@ body {
     }
 
 }
+
+
+/* =========================
+   LESSON CONTENT
+   ========================= */
+
+.lesson-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.lesson-panel {
+    background-color: white;
+    padding: 28px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
+}
+
+
+.lesson-panel h2 {
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+
+.lesson-panel h3 {
+    font-size: 17px;
+    margin: 20px 0 8px;
+}
+
+
+.lesson-panel p,
+.lesson-panel li {
+    color: #4b5563;
+    line-height: 1.7;
+}
+
+
+.lesson-panel ul,
+.lesson-panel ol {
+    padding-left: 24px;
+}
+
+
+.lesson-formula {
+    margin: 18px 0;
+    padding: 16px 20px;
+    border-left: 4px solid #2563eb;
+    border-radius: 8px;
+    background-color: #eff6ff;
+    color: #1e40af;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.lesson-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+
+.lesson-navigation-spaced {
+    margin-top: 22px;
+}
+
+
+.lesson-link {
+    display: inline-block;
+    padding: 12px 18px;
+    border-radius: 8px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+
+.lesson-link:hover {
+    background-color: #1d4ed8;
+}
+
+
+.lesson-link.secondary {
+    background-color: white;
+    color: #2563eb;
+    border: 1px solid #bfdbfe;
+}
+
+
+.lesson-link.secondary:hover {
+    background-color: #eff6ff;
+}
+
+
+@media (max-width: 500px) {
+
+    .lesson-panel {
+        padding: 22px;
+    }
+
+}
 /* =========================
    COURSE PAGE
    ========================= */
@@ -918,4 +1025,3 @@ body {
     }
 
 }
-

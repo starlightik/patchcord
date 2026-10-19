@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>school coach — Квадратные уравнения</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">school coach</div>
+        <nav class="navigation">
+            <a href="index.html">Главная</a>
+            <a href="grades.html">Мои оценки</a>
+            <a href="profile.html">Профиль</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="course-header">
+            <span class="subject-label">Математика · Урок 3</span>
+            <h1>Квадратные уравнения</h1>
+            <p>Научимся находить корни уравнения с помощью дискриминанта.</p>
+        </section>
+
+        <div class="lesson-content">
+            <section class="lesson-panel">
+                <h2>Что такое квадратное уравнение?</h2>
+                <p>
+                    Квадратным называется уравнение вида <strong>ax<sup>2</sup> + bx + c = 0</strong>,
+                    где <strong>a</strong>, <strong>b</strong> и <strong>c</strong> — числа, а
+                    <strong>a ≠ 0</strong>. Числа a, b и c называют коэффициентами уравнения.
+                </p>
+
+                <h3>Шаг 1. Найди дискриминант</h3>
+                <p>Дискриминант помогает определить, сколько корней у уравнения.</p>
+                <div class="lesson-formula">D = b<sup>2</sup> − 4ac</div>
+
+                <h3>Шаг 2. Определи количество корней</h3>
+                <ul>
+                    <li>Если D &gt; 0, уравнение имеет два корня.</li>
+                    <li>Если D = 0, уравнение имеет один корень.</li>
+                    <li>Если D &lt; 0, действительных корней нет.</li>
+                </ul>
+
+                <h3>Шаг 3. Вычисли корни</h3>
+                <p>Когда D ≥ 0, подставь коэффициенты в формулу корней:</p>
+                <div class="lesson-formula">x = (−b ± √D) / 2a</div>
+                <p>
+                    Знак «±» означает, что при D &gt; 0 нужно выполнить вычисление дважды:
+                    сначала со знаком «+», затем со знаком «−».
+                </p>
+            </section>
+
+            <section class="lesson-panel">
+                <h2>Разберём пример</h2>
+                <p>Решим уравнение <strong>x<sup>2</sup> − 5x + 6 = 0</strong>.</p>
+                <ol>
+                    <li>Определяем коэффициенты: a = 1, b = −5, c = 6.</li>
+                    <li>Находим дискриминант: D = (−5)<sup>2</sup> − 4 · 1 · 6 = 25 − 24 = 1.</li>
+                    <li>Так как D &gt; 0, у уравнения два корня.</li>
+                    <li>x<sub>1</sub> = (5 + √1) / 2 = 3; x<sub>2</sub> = (5 − √1) / 2 = 2.</li>
+                </ol>
+                <div class="lesson-formula">Ответ: x = 2 или x = 3</div>
+            </section>
+
+            <section class="lesson-panel">
+                <h2>Самостоятельная работа</h2>
+                <p>Реши уравнения. Сначала найди дискриминант, затем корни.</p>
+                <ol>
+                    <li>x<sup>2</sup> − 5x + 6 = 0</li>
+                    <li>2x<sup>2</sup> + 3x − 2 = 0</li>
+                    <li>x<sup>2</sup> + 4x + 4 = 0</li>
+                    <li>3x<sup>2</sup> − 12 = 0</li>
+                    <li>x<sup>2</sup> − 2x − 8 = 0</li>
+                    <li>4x<sup>2</sup> − 4x + 1 = 0</li>
+                </ol>
+                <div class="lesson-navigation lesson-navigation-spaced">
+                    <a href="math-answers.html" class="lesson-link">Перейти к ответам</a>
+                    <a href="math.html" class="lesson-link secondary">К списку уроков</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 school coach</p>
+    </footer>
+</body>
+
+</html>
